@@ -1,7 +1,7 @@
 HELP.md
 .gradle
 build/
-!gradle/wrapper/gradle-wrapper.jar
+!../gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
 ./gradle*
@@ -48,9 +48,9 @@ application-common.yml
 application-test.yml
 application.properties
 
-server/build*
+build.gradle
 .gradle
 .jar
 .properties
 server/gradle/*
-server/settings.gradle
+settings.gradle
